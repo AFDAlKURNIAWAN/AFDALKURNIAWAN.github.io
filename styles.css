@@ -1,0 +1,81 @@
+*,
+ html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(afdal.jpg);
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    font-family: "Poppins", Arial, sans-serif;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    background-image: url(mypic.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ccc; 
+    margin-bottom: 10px;
+}
+
+.tolol {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lol {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.big-boy {
+    list-style-type: none;
+    padding: 0;
+    width: 600px;
+}
+
+
+.big-boy li {
+    margin-bottom: 10px;
+}
+
+.big-boy a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+
+.big-boy a:hover {
+    background-color: white; 
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .big-boy {
+        width: 320px;
+        height: 320px;
+    }
+}
